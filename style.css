@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+/* navbar */
+.navbar {
+  height: 79px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.container-fluid {
+  padding: 0 24px;
+}
+.navbar-brand {
+  height: 22px;
+  padding: 0;
+  margin: 0;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+}
+.offcanvas-header {
+  height: 79px;
+  padding: 0 24px;
+}
+.offcanvas-title {
+  height: 22px;
+}
+.offcanvas-header .btn-close {
+  margin: 0;
+  padding: 0;
+}
+.close {
+  width: 30px;
+  height: 30px;
+}
+.offcanvas-end {
+  border: none;
+}
+.offcanvas-body {
+  width: 100%;
+  height: 588px;
+  background: hsl(270, 9%, 17%) url("./images/bg-pattern-mobile-nav.svg")
+    no-repeat bottom right;
+  background-size: 100% 37%;
+  padding: 0;
+}
+.pe-3 {
+  padding: 0 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.nav-link {
+  padding: 0;
+  margin-top: 46px;
+}
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+.nav-link:focus {
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  width: 324px;
+  height: 52px;
+}
+/* introduction */
+.background-intro {
+  width: 100%;
+  height: 446px;
+}
+.container {
+  height: 500px;
+  background-color: hsl(256, 26%, 20%);
+  font-family: "DM Serif Display", serif;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 100px 40px 92px;
+  text-align: center;
+}
+.intro-heading {
+  font-size: 35px;
+  margin: 0;
+  padding: 0 15px;
+}
+.intro-body {
+  font-size: 15px;
+  margin: 25px 0 0;
+}
+.btn {
+  margin: 35px 0 0;
+  width: 142px;
+  height: 36px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: unset;
+}
