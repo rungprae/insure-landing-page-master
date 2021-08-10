@@ -33,7 +33,7 @@ body {
   height: 30px;
 }
 .offcanvas-header {
-  height: 79px;
+  height: 80px;
   padding: 0 24px;
 }
 .offcanvas-title {
@@ -91,29 +91,62 @@ body {
   height: 52px;
 }
 /* introduction */
-.background-intro {
+.background-branding {
   width: 100%;
   height: 446px;
 }
-.container {
+.container-intro {
   height: 500px;
   background-color: hsl(256, 26%, 20%);
-  font-family: "DM Serif Display", serif;
   color: #ffffff;
-  font-weight: 400;
-  padding: 100px 40px 92px;
   text-align: center;
+  padding: 0;
+}
+.background-intro {
+  position: relative;
+}
+.background-intro:before {
+  content: "";
+  display: block;
+  background-image: url(./images/bg-pattern-intro-left-mobile.svg);
+  width: 48%;
+  height: 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 0;
+}
+.background-intro:after {
+  content: "";
+  display: block;
+  background-image: url(./images/bg-pattern-intro-right-mobile.svg);
+  width: 33%;
+  height: 31%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+}
+.intro-info {
+  padding: 98px 30px 92px;
+  position: relative;
+  z-index: 1;
 }
 .intro-heading {
-  font-size: 35px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 700;
+  font-size: 45px;
   margin: 0;
-  padding: 0 15px;
 }
-.intro-body {
+.intro-content {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
   font-size: 15px;
   margin: 25px 0 0;
+  padding: 0 10px;
 }
-.btn {
+.btn-intro {
   margin: 35px 0 0;
   width: 142px;
   height: 36px;
@@ -121,4 +154,38 @@ body {
   color: #ffffff;
   font-size: 12px;
   border-radius: unset;
+  background-color: hsl(256, 26%, 20%);
+  font-family: "Karla", sans-serif;
+  font-weight: 400px;
 }
+.btn-intro:hover {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+}
+/* container-body */
+.container-body{
+  height: 1310px;
+  max-width: 100vw;
+}
+.background-body{
+  display: block;
+  background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
+  width: 30%;
+  height: 14%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+.body-info{
+  max-width: 100vw;
+  position: absolute;
+  padding: 140px 34px 142px;
+}
+.line{
+  color: hsl(256, 26%, 20%);
+  width: 150px;
+}
+
