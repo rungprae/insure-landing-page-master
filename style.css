@@ -289,10 +289,11 @@ body {
   margin-top: 40px;
 }
 .btn.btn-link {
-  margin-right: 15px;
+  margin-right: 12px;
   width: 24px;
   height: 24px;
   color: hsl(273, 4%, 51%);
+  padding: 0;
 }
 .btn.btn-link:hover {
   color: hsl(256, 26%, 20%);
