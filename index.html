@@ -32,8 +32,25 @@
   <body>
     <div class="insure">
       <nav class="navbar navbar-light bg-light fixed-top">
-        <div class="container-fluid">
+        <div class="container-fluid container navbar">
           <img class="navbar-brand" src="./images/logo.svg" />
+          <!-- desktop -->
+          <div class="nav-desktop">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link hww" href="#">HOW WE WORK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link blog" href="#">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link account" href="#">ACCOUNT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link vp" href="#">VIEW PLANS</a>
+              </li>
+            </ul>
+          </div>
           <button
             class="navbar-toggler"
             type="button"
@@ -85,95 +102,80 @@
           </div>
         </div>
       </nav>
-      <!-- navbar desktop -->
-      <div class="nav-desktop">
-        <div class="nav-desktop-logo">
-          <img
-            class="nav-logo"
-            src="./images/logo.svg"
-            alt=""
-            width="112"
-            height="20"
-          />
-        </div>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link hww" href="#">HOW WE WORK</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link blog" href="#">BLOG</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link account" href="#">ACCOUNT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link vp" href="#">VIEW PLANS</a>
-          </li>
-        </ul>
-      </div>
+
       <!-- introduction -->
-      <div class="container-fluid container-branding">
-        <img
-          class="background-branding"
-          alt="family image"
-          src="./images/image-intro-mobile.jpg"
-        />
-        <div class="container-fluid container-intro">
-          <div class="intro-background">
-            <div class="intro-info">
-              <div class="line-desktop"></div>
-              <h1 class="intro-heading">Humanizing your insurance.</h1>
-              <p class="intro-content">
-                Get your life insurance coverage easier and faster. We blend our
-                expertise and technology to help you find the plan that’s right
-                for you. Ensure you and your loved ones are protected.
-              </p>
-              <button class="intro-btn" type="button">VIEW PLANS</button>
+      <div class="intro-body">
+        <div class="container-fluid container-branding">
+          <div class="container intro">
+            <div class="row align-items-start intro">
+              <div class="col-12 col-xl-6 intro-branding">
+                <img
+                  class="background-branding"
+                  alt="family image"
+                  src="./images/image-intro-mobile.jpg"
+                />
+              </div>
+              <div class="col-12 col-xl-6 intro-background">
+                <div class="intro-info">
+                  <div class="line-desktop"></div>
+                  <h1 class="intro-heading">Humanizing your insurance.</h1>
+                  <p class="intro-content">
+                    Get your life insurance coverage easier and faster. We blend
+                    our expertise and technology to help you find the plan
+                    that’s right for you. Ensure you and your loved ones are
+                    protected.
+                  </p>
+                  <button class="intro-btn" type="button">VIEW PLANS</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- We're different -->
-      <div class="container-fluid container-body">
-        <div class="body-info">
-          <div class="line"></div>
-          <div class="body-heading">We’re different</div>
-          <div class="advert-info">
-            <div class="advert advert-sp">
-              <img
-                class="advert-icon"
-                src="./images/icon-snappy-process.svg"
-                alt="icon snappy process"
-              />
-              <h2 class="advert-heading">Snappy Process</h2>
-              <p class="advert-content">
-                Our application process can be completed in minutes, not hours.
-                Don’t get stuck filling in tedious forms.
-              </p>
-            </div>
-            <div class="advert advert-ap">
-              <img
-                class="advert-icon"
-                src="./images/icon-affordable-prices.svg"
-                alt="icon price "
-              />
-              <h2 class="advert-heading">Affordable Prices</h2>
-              <p class="advert-content">
-                We don’t want you worrying about high monthly costs. Our prices
-                may be low, but we still offer the best coverage possible.
-              </p>
-            </div>
-            <div class="advert advert-pf">
-              <img
-                class="advert-icon"
-                src="./images/icon-people-first.svg"
-                alt="icon price "
-              />
-              <h2 class="advert-heading">People First</h2>
-              <p class="advert-content">
-                Our plans aren’t full of conditions and clauses to prevent
-                payouts. We make sure you’re covered when you need it.
-              </p>
+        <!-- We're different -->
+        <div class="container-fluid container-body">
+          <div class="container container-body-info">
+            <div class="line"></div>
+            <div class="body-heading">We’re different</div>
+            <div class="container advert-info">
+              <div class="row align-items-start advert-mb advert-dt">
+                <div class="col-12 col-xl-4 advert advert-sp">
+                  <img
+                    class="advert-icon"
+                    src="./images/icon-snappy-process.svg"
+                    alt="icon snappy process"
+                  />
+                  <h2 class="advert-heading">Snappy Process</h2>
+                  <p class="advert-content">
+                    Our application process can be completed in minutes, not
+                    hours. Don’t get stuck filling in tedious forms.
+                  </p>
+                </div>
+                <div class="col-12 col-xl-4 advert advert-ap">
+                  <img
+                    class="advert-icon"
+                    src="./images/icon-affordable-prices.svg"
+                    alt="icon price "
+                  />
+                  <h2 class="advert-heading">Affordable Prices</h2>
+                  <p class="advert-content">
+                    We don’t want you worrying about high monthly costs. Our
+                    prices may be low, but we still offer the best coverage
+                    possible.
+                  </p>
+                </div>
+                <div class="col-12 col-xl-4 advert advert-pf">
+                  <img
+                    class="advert-icon"
+                    src="./images/icon-people-first.svg"
+                    alt="icon price "
+                  />
+                  <h2 class="advert-heading">People First</h2>
+                  <p class="advert-content">
+                    Our plans aren’t full of conditions and clauses to prevent
+                    payouts. We make sure you’re covered when you need it.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -182,10 +184,10 @@
       <div class="container-fluid container-work">
         <div class="container container-work-card">
           <div class="row align-items-start work-content">
-            <div class="col-12 col-xl-9 work-heading">
+            <div class="col-12 col-xl-4 work-heading">
               Find out more about how we work
             </div>
-            <div class="col-12 col-xl-3 hww">
+            <div class="col-12 col-xl-8 hww">
               <button class="work-btn">HOW WE WORK</button>
             </div>
           </div>
@@ -194,7 +196,7 @@
       <!-- footer -->
       <div class="container-fluid footer">
         <div class="container footer">
-          <div class="row align-items-start">
+          <div class="row align-items-start footer">
             <div class="col-12 col-xl-9 footer">
               <img class="footer-logo" src="./images/logo.svg" alt="logo" />
             </div>
@@ -262,7 +264,7 @@
           </div>
           <!-- footer list -->
           <div class="container footer-list">
-            <div class="row align-items-start">
+            <div class="row align-items-start footer-list">
               <div class="col-12 col-xl-3 list-group">
                 <h5 class="list-gruop-heading">OUR COMPANY</h5>
                 <a href="#" class="list-group-item">HOME WE WORK</a>
